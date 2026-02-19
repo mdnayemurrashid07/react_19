@@ -1,11 +1,10 @@
 import React from "react";
 
-const ProductCard = ({src ,text}) => {
+const ProductCard = ({src ,text }) => {
   return (
     <div className="page">
       <div className="card">
         <div className="badge"></div>
-
         <div className="image-box">
           <img
             src={src}
@@ -19,7 +18,6 @@ const ProductCard = ({src ,text}) => {
 
           <div className="price-rating">
             <h1>$20</h1>
-
             <div className="rating">
               <span>⭐⭐⭐⭐☆</span>
               <p>Discount 50%</p>
