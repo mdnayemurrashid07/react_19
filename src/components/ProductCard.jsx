@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProductCard = ({src}) => {
+const ProductCard = ({src ,text}) => {
   return (
     <div className="page">
       <div className="card">
@@ -11,10 +11,8 @@ const ProductCard = ({src}) => {
             src={src}
           />
         </div>
-
         <div className="content">
-          <h1>Lorem Ipsum <br /> Dolor Sit</h1>
-
+          <h1 className="text">{text}</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam
           </p>

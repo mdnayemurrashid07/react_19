@@ -36,6 +36,15 @@ body {
   background: #ff5a4f;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
 }
+.badge:hover {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  width: 50px;
+  height: 80px;
+  background: skyblue;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+}
 
 .image-box {
   padding: 20px;
@@ -52,7 +61,7 @@ body {
   padding: 0 20px 20px 20px;
 }
 
-.content h2 {
+.content h1 {
   margin: 10px 0;
   color: #5c1a10;
 }
@@ -66,12 +75,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .price-rating h1 {
   color: #7a140e;
-  margin: 0;
+  margin: 10px 0;
 }
 
 .rating span {
@@ -95,7 +104,7 @@ body {
   transition: 0.3s;
 }
 
-
 .button:hover {
-  background: #e35a48;
+  background: skyblue;
+  color: black;
 }
