@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProductCard = ({src ,text }) => {
+const ProductCard = ({src ,text}) => {
   return (
     <div className="page">
       <div className="card">
